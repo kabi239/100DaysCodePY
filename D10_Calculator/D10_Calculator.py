@@ -1,6 +1,6 @@
 #Calculator
 import os
-from logo import logo
+from logo import logo1
 
 
 def add(n1,n2):
@@ -22,7 +22,7 @@ operations={
     }  
 
 def calculator():
-    print(logo) 
+    print(logo1) 
     num1=float(input("What's the first number ? \n"))
     for i in operations:
         print(i)
